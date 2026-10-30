@@ -26,7 +26,8 @@
         <a href="#about">About</a>
         <a href="#missions">Missions</a>
         <a href="#software">Software</a>
-        <a href="#repos">Repositories</a>
+        <a href="repositories.html">Repositories</a>
+        <a href="publications.html">Publications</a>
         <a href="#education">Education</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -145,17 +146,42 @@
 
     <section id="repos" class="section alt">
       <div class="wrap">
-        <div class="repos-head">
-          <div>
-            <h2>Repositories</h2>
-            <p class="sub">Live from <a href="https://github.com/hsfl">github.com/hsfl</a>.</p>
-          </div>
-          <input id="repo-filter" type="search" placeholder="Filter repositories…" aria-label="Filter repositories">
+        <h2>Repositories</h2>
+        <p class="sub">Our flagship open-source projects. Browse everything on the <a href="repositories.html">repositories page</a>.</p>
+        <div class="grid two featured">
+          <article class="card feature">
+            <span class="tag current">Flagship</span>
+            <h3>COSMOS v5</h3>
+            <p>The core of the COSMOS ecosystem: libraries, runtime services and agent infrastructure for building and operating distributed robotic systems, including CubeSats, UAVs and ground stations. This workspace brings together all the layer repositories as submodules.</p>
+            <ul class="layers">
+              <li><a href="https://github.com/hsfl/cosmosv5-kernel">kernel</a></li>
+              <li><a href="https://github.com/hsfl/cosmosv5-micro-agent">micro-agent</a></li>
+              <li><a href="https://github.com/hsfl/cosmosv5-simulator">simulator</a></li>
+              <li><a href="https://github.com/hsfl/cosmosv5-agent">agent</a></li>
+              <li><a href="https://github.com/hsfl/cosmosv5-modules">modules</a></li>
+              <li><a href="https://github.com/hsfl/cosmosv5-ground-station">ground-station</a></li>
+            </ul>
+            <a class="btn" href="https://github.com/hsfl/cosmosv5">hsfl/cosmosv5 →</a>
+          </article>
+          <article class="card feature">
+            <span class="tag edu">Education</span>
+            <h3>Artemis CubeSat Kit</h3>
+            <p>A low-cost, open-source 1U CubeSat kit with every essential subsystem. Funded by NASA's Artemis Student Challenge and built by UH Mānoa students under HSFL supervision, it comes with flight software, hardware designs and a curriculum.</p>
+            <ul class="layers">
+              <li><a href="https://github.com/hsfl/artemis-hardware">hardware</a></li>
+              <li><a href="https://github.com/hsfl/fprime-artemis-cubesat">F´ deployment</a></li>
+              <li><a href="https://github.com/hsfl/artemis-cubesat-pdu-firmware">PDU firmware</a></li>
+              <li><a href="https://github.com/hsfl/artemis-cubesat-protocols">protocols</a></li>
+            </ul>
+            <a class="btn" href="https://github.com/hsfl/artemis-cubesat">hsfl/artemis-cubesat →</a>
+          </article>
         </div>
-        <div id="repo-list" class="grid three repo-grid">
-          <p class="muted">Loading repositories…</p>
+        <div class="repos-head search-head">
+          <h3>Search all repositories</h3>
+          <input id="repo-filter" type="search" placeholder="Filter by name, language or topic…" aria-label="Filter repositories">
         </div>
-        <p class="center"><a class="btn" href="https://github.com/orgs/hsfl/repositories">View all on GitHub</a></p>
+        <div id="repo-list" class="grid three repo-grid" data-mode="search"></div>
+        <p class="center"><a class="btn" href="repositories.html">View all repositories</a></p>
       </div>
     </section>
 
@@ -195,5 +221,6 @@
   </footer>
 
   <script src="assets/main.js"></script>
+  <script src="assets/repos.js"></script>
 </body>
 </html>

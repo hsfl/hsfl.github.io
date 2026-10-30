@@ -1,0 +1,58 @@
+[
+  {
+    "year": 2026,
+    "title": "HITechSat-1: A Rapidly Integrable 3U Platform for University CubeSat Missions",
+    "authors": "Kim et al.",
+    "venue": "40th Annual Small Satellite Conference, SSC26-P4-87",
+    "url": "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=6668&context=smallsat",
+    "tags": ["HITechSat-1"]
+  },
+  {
+    "year": 2022,
+    "title": "University of Hawaii's Spaceflight-Ready, Low-Cost, Open-Source, Educational Artemis CubeSat Kit",
+    "authors": "",
+    "venue": "36th Annual Small Satellite Conference",
+    "url": "https://digitalcommons.usu.edu/smallsat/2022/all2022/76/",
+    "tags": ["Artemis", "Education"]
+  },
+  {
+    "year": 2019,
+    "title": "HYTI: Thermal Hyperspectral Imaging From a CubeSat Platform",
+    "authors": "R. Wright, P. Lucey, L. Flynn, M. Nunes, et al.",
+    "venue": "33rd Annual AIAA/USU Conference on Small Satellites, SSC19-WKIV-02",
+    "url": "https://digitalcommons.usu.edu/smallsat/2019/all2019/70/",
+    "tags": ["HyTI"]
+  },
+  {
+    "year": 2019,
+    "title": "NEUTRON-1 Mission: Low Earth Orbit Neutron Flux Detection and COSMOS Mission Operations Technology Demonstration",
+    "authors": "M. Nunes et al.",
+    "venue": "33rd Annual AIAA/USU Conference on Small Satellites",
+    "url": "https://digitalcommons.usu.edu/smallsat/2019/all2019/124/",
+    "tags": ["Neutron-1", "COSMOS"]
+  },
+  {
+    "year": 2014,
+    "title": "New Gateway to Space for Small Satellites by the Hawaii Space Flight Laboratory",
+    "authors": "T. C. Sorensen, M. A. Nunes, J. K. Chan, E. J. Pilger, L. K. Yoneshige",
+    "venue": "Small Satellite Systems and Services Symposium (4S), Porto Petro, Majorca, Spain",
+    "url": "https://www.researchgate.net/publication/272418376_New_Gateway_to_Space_for_Small_Satellites_by_the_Hawaii_Space_Flight_Laboratory",
+    "tags": ["ORS-4"]
+  },
+  {
+    "year": 2011,
+    "title": "Development of a Comprehensive Mission Operations System Designed to Operate Multiple Small Satellites",
+    "authors": "T. C. Sorensen et al.",
+    "venue": "25th Annual AIAA/USU Conference on Small Satellites, SSC11-IX-3",
+    "url": "https://digitalcommons.usu.edu/smallsat/2011/all2011/62/",
+    "tags": ["COSMOS"]
+  },
+  {
+    "year": 2009,
+    "title": "Big Potential for Small-Satellite Students",
+    "authors": "W. A. Shiroma, J. M. Akagi, B. L. Wolfe, J. T. Akagi, Z. K. Lee-Ho, A. T. Ohta",
+    "venue": "23rd Annual AIAA/USU Conference on Small Satellites, SSC09-XII-07",
+    "url": "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=1344&context=smallsat",
+    "tags": ["Education"]
+  }
+]

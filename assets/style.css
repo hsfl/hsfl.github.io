@@ -155,3 +155,50 @@ address { font-style: normal; color: var(--muted); font-size: 1.05rem; }
   .orbit { opacity: .25; right: -200px; }
   #repo-filter { min-width: 0; width: 100%; }
 }
+
+/* Featured repositories */
+.featured { gap: 24px; margin-bottom: 3rem; }
+.feature { padding: 28px; }
+.feature h3 { margin-top: 0; font-size: 1.5rem; }
+.feature .btn { align-self: flex-start; margin-top: auto; }
+.layers { list-style: none; padding: 0; margin: 0 0 1.5rem; display: flex; flex-wrap: wrap; gap: 8px; }
+.layers a {
+  display: inline-block; padding: 4px 12px; border-radius: 999px; font-size: .85rem; font-weight: 500;
+  border: 1px solid var(--border); background: var(--bg-alt);
+}
+.layers a:hover { text-decoration: none; border-color: var(--green-2); }
+.search-head { align-items: center; }
+.search-head h3 { margin: 0 0 2rem; }
+.repo-grid:empty { display: none; }
+
+/* Sub-pages */
+.page-hero {
+  background: radial-gradient(ellipse at 80% 30%, #0b4a36 0%, var(--hero-bg) 65%);
+  color: #fff; padding: 72px 0 64px;
+}
+.page-hero h1 { font-size: clamp(2rem, 5vw, 3rem); }
+.page-hero .lead { margin: 0; }
+.page-hero a { color: var(--accent); }
+.nav-links a[aria-current="page"] { color: #fff; border-bottom: 2px solid var(--accent); }
+.toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px; margin-bottom: 2rem; }
+.toolbar input, .toolbar select {
+  padding: 10px 16px; border-radius: 999px; border: 1px solid var(--border);
+  background: var(--card); color: var(--text); font: inherit;
+}
+.toolbar input { flex: 1; min-width: 220px; max-width: 460px; margin: 0; }
+.note { margin-top: 3rem; }
+
+/* Publications */
+.pub-year { display: grid; grid-template-columns: 120px 1fr; gap: 24px; padding: 24px 0; border-top: 1px solid var(--border); }
+.pub-year h2 { color: var(--green-2); font-size: 1.6rem; margin: 0; }
+.pubs { list-style: none; margin: 0; padding: 0; display: grid; gap: 22px; }
+.pub-title { font-weight: 600; font-size: 1.05rem; color: var(--text); }
+.pub-title:hover { color: var(--green-2); }
+.pub-authors { color: var(--text); opacity: .85; font-size: .95rem; margin-top: 2px; }
+.pub-venue { color: var(--muted); font-size: .9rem; font-style: italic; }
+.pub-tags { display: flex; gap: 6px; margin-top: 8px; }
+.pub-tags .tag { margin: 0; }
+@media (max-width: 680px) {
+  .pub-year { grid-template-columns: 1fr; gap: 10px; }
+  .toolbar input { max-width: none; }
+}

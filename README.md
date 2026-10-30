@@ -4,10 +4,29 @@ Organization landing page for the **Hawaiʻi Space Flight Laboratory (HSFL)** at
 
 ## Structure
 
-- `index.html` — the page (About, Missions, Software, Repositories, Education, Contact)
+- `index.html` — home page (About, Missions, Software, featured repositories, Education, Contact)
+- `repositories.html` — every public repository, live from the GitHub API, with search and language filter
+- `publications.html` — publications grouped by year, with search
+- `data/publications.json` — the publication list; add an entry here to publish a new paper
 - `assets/style.css` — styles (light/dark, responsive)
-- `assets/main.js` — mobile nav and the live repository list from the GitHub API
+- `assets/main.js` — shared nav and helpers
+- `assets/repos.js`, `assets/publications.js` — repository and publication lists
 - `.nojekyll` — serve files as-is, no Jekyll build
+
+## Adding a publication
+
+Append an object to `data/publications.json`:
+
+```json
+{
+  "year": 2026,
+  "title": "Paper title",
+  "authors": "A. Author, B. Author",
+  "venue": "Conference or journal",
+  "url": "https://link-to-paper",
+  "tags": ["Mission name"]
+}
+```
 
 ## Local preview
 
