@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hawaiʻi Space Flight Laboratory</title>
+  <meta name="description" content="The Hawaiʻi Space Flight Laboratory (HSFL) at the University of Hawaiʻi at Mānoa designs, builds, launches and operates small satellites for science, technology and education.">
+  <meta property="og:title" content="Hawaiʻi Space Flight Laboratory (HSFL)">
+  <meta property="og:description" content="Small satellites, flight software and ground systems from the University of Hawaiʻi at Mānoa.">
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/22994047?v=4">
+  <link rel="icon" href="https://avatars.githubusercontent.com/u/22994047?s=64&v=4">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#top">
+        <img src="https://avatars.githubusercontent.com/u/22994047?s=80&v=4" alt="" width="36" height="36">
+        <span>HSFL</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#missions">Missions</a>
+        <a href="#software">Software</a>
+        <a href="#repos">Repositories</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <svg class="orbit" viewBox="0 0 600 600" aria-hidden="true">
+        <circle cx="300" cy="300" r="90" class="planet"/>
+        <ellipse cx="300" cy="300" rx="250" ry="110" class="ring" transform="rotate(-20 300 300)"/>
+        <ellipse cx="300" cy="300" rx="180" ry="180" class="ring ring-2"/>
+        <g class="sat sat-1"><rect x="-6" y="-6" width="12" height="12"/><rect x="-22" y="-3" width="12" height="6"/><rect x="10" y="-3" width="12" height="6"/></g>
+        <g class="sat sat-2"><rect x="-5" y="-5" width="10" height="10"/></g>
+      </svg>
+      <div class="wrap hero-text">
+        <p class="eyebrow">University of Hawaiʻi at Mānoa</p>
+        <h1>Hawaiʻi Space Flight Laboratory</h1>
+        <p class="lead">We design, build, launch and operate small satellites for science, technology demonstration and education — and we publish the flight software and ground systems that fly them.</p>
+        <div class="cta">
+          <a class="btn primary" href="#repos">Explore our code</a>
+          <a class="btn" href="https://www.hsfl.hawaii.edu/">Visit hsfl.hawaii.edu</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="wrap section">
+      <h2>About HSFL</h2>
+      <div class="grid two">
+        <div>
+          <p>The Hawaiʻi Space Flight Laboratory was established in 2007 within the School of Ocean and Earth Science and Technology (SOEST) and the College of Engineering at the University of Hawaiʻi at Mānoa.</p>
+          <p>HSFL develops 1–100&nbsp;kg small satellites for science and education, supports technology validation missions for government agencies such as NASA and the DoD, and partners with university and industry missions. Students work side by side with engineers and scientists on every phase, from concept to on-orbit operations.</p>
+        </div>
+        <ul class="facts">
+          <li><strong>2007</strong><span>Founded at UH Mānoa</span></li>
+          <li><strong>1–100&nbsp;kg</strong><span>Small satellite class</span></li>
+          <li><strong>2015</strong><span>ORS-4: first launch from Hawaiʻi (PMRF Kauaʻi)</span></li>
+          <li><strong>Open source</strong><span>COSMOS mission operations framework</span></li>
+        </ul>
+      </div>
+      <h3>What we do</h3>
+      <div class="grid four cards">
+        <article class="card"><h4>Satellite platforms</h4><p>CubeSats and microsatellites, from bus design through flight.</p></article>
+        <article class="card"><h4>Integration &amp; testing</h4><p>Cleanroom, thermal-vacuum and environmental test capability.</p></article>
+        <article class="card"><h4>Instrumentation</h4><p>Science payloads such as hyperspectral thermal imagers and neutron detectors.</p></article>
+        <article class="card"><h4>Mission operations</h4><p>Ground stations across Hawaiʻi and the COSMOS operations software.</p></article>
+      </div>
+    </section>
+
+    <section id="missions" class="section alt">
+      <div class="wrap">
+        <h2>Missions</h2>
+        <p class="sub">A selection of HSFL spacecraft, current and past.</p>
+        <div class="grid three cards">
+          <article class="card mission">
+            <span class="tag current">Current</span>
+            <h4>HyTI</h4>
+            <p>Hyperspectral Thermal Imager — a 6U CubeSat in low Earth orbit funded by NASA's Earth Science Technology Office, demonstrating compact hyperspectral thermal imaging as a pathfinder for future science missions.</p>
+            <a href="https://github.com/search?q=org%3Ahsfl+hyti&type=repositories">Code →</a>
+          </article>
+          <article class="card mission">
+            <span class="tag current">In development</span>
+            <h4>Lunar HyTI</h4>
+            <p>Taking hyperspectral thermal imaging to the Moon, with mission planning built on SPICE kernels and dedicated flight software.</p>
+            <a href="https://github.com/hsfl/lunar-hyti">Code →</a>
+          </article>
+          <article class="card mission">
+            <span class="tag current">In development</span>
+            <h4>Neutron-2</h4>
+            <p>Follow-on to Neutron-1, continuing measurements of the low-Earth-orbit neutron environment.</p>
+            <a href="https://github.com/hsfl/Neutron-2">Code →</a>
+          </article>
+          <article class="card mission">
+            <span class="tag">Completed</span>
+            <h4>Neutron-1</h4>
+            <p>3U CubeSat carrying an Arizona State University neutron detector. Deployed from the International Space Station in November 2020 and deorbited in 2022 after completing its mission.</p>
+            <a href="https://www.hsfl.hawaii.edu/missions/neutron-1/">Mission page →</a>
+          </article>
+          <article class="card mission">
+            <span class="tag">Completed</span>
+            <h4>HiakaSat-1 &amp; ORS-4</h4>
+            <p>HSFL's microsatellite flew on ORS-4 in November 2015 aboard the Super Strypi rocket from the Pacific Missile Range Facility on Kauaʻi.</p>
+            <a href="https://www.hsfl.hawaii.edu/missions/">Missions →</a>
+          </article>
+          <article class="card mission">
+            <span class="tag edu">Education</span>
+            <h4>Artemis CubeSat Kit</h4>
+            <p>A low-cost 1U CubeSat kit with every essential subsystem, open hardware and flight software — built for classrooms across Hawaiʻi and beyond.</p>
+            <a href="https://github.com/hsfl/artemis-cubesat">Code →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="software" class="wrap section">
+      <h2>Software &amp; ground systems</h2>
+      <p class="sub">The tools we build to fly spacecraft, open to the community.</p>
+      <div class="grid three cards">
+        <article class="card">
+          <h4>COSMOS</h4>
+          <p>Comprehensive Open-architecture Solution for Mission Operations Systems: an embedded operations environment for satellites, drones and rovers, covering flight software, simulation and ground.</p>
+          <p class="links"><a href="https://github.com/hsfl/cosmos-core">cosmos-core</a> · <a href="https://github.com/hsfl/cosmosv5">cosmosv5</a> · <a href="https://github.com/hsfl/cosmos-docs">docs</a></p>
+        </article>
+        <article class="card">
+          <h4>F´ &amp; Yamcs deployments</h4>
+          <p>NASA F´ flight software deployments and Yamcs mission control integrations, including XTCE mission-database generation for flight and ground.</p>
+          <p class="links"><a href="https://github.com/hsfl/fprime-artemis-cubesat">fprime-artemis</a> · <a href="https://github.com/hsfl/hts1-yamcs">hts1-yamcs</a> · <a href="https://github.com/hsfl/xtce_cpp_generate">xtce_cpp_generate</a></p>
+        </article>
+        <article class="card">
+          <h4>Ground station network</h4>
+          <p>GNU Radio flowgraphs, rotator control and scheduling software for HSFL's ground stations.</p>
+          <p class="links"><a href="https://github.com/hsfl/Groundstation-Flowgraphs">flowgraphs</a> · <a href="https://github.com/hsfl/Groundstation-Hardware-Controller">hardware controller</a> · <a href="https://github.com/hsfl/SSaM4GSN">SSaM</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="repos" class="section alt">
+      <div class="wrap">
+        <div class="repos-head">
+          <div>
+            <h2>Repositories</h2>
+            <p class="sub">Live from <a href="https://github.com/hsfl">github.com/hsfl</a>.</p>
+          </div>
+          <input id="repo-filter" type="search" placeholder="Filter repositories…" aria-label="Filter repositories">
+        </div>
+        <div id="repo-list" class="grid three repo-grid">
+          <p class="muted">Loading repositories…</p>
+        </div>
+        <p class="center"><a class="btn" href="https://github.com/orgs/hsfl/repositories">View all on GitHub</a></p>
+      </div>
+    </section>
+
+    <section id="education" class="wrap section">
+      <h2>Education &amp; outreach</h2>
+      <div class="grid two">
+        <p>HSFL trains the next generation of Hawaiʻi's aerospace workforce. Undergraduate and graduate students join mission teams, run ground stations and write flight code, while the Artemis CubeSat Kit and partnerships with community colleges bring hands-on space engineering to classrooms statewide.</p>
+        <p>Interested in joining a mission team, collaborating on research, or contributing to our open-source software? Get in touch, or open an issue or pull request on any of our repositories.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="wrap grid two">
+        <div>
+          <h2>Contact</h2>
+          <address>
+            Hawaiʻi Space Flight Laboratory<br>
+            University of Hawaiʻi at Mānoa<br>
+            1680 East-West Road, POST 501<br>
+            Honolulu, HI 96822
+          </address>
+        </div>
+        <ul class="contact-list">
+          <li><span>Email</span><a href="mailto:info@hsfl.hawaii.edu">info@hsfl.hawaii.edu</a></li>
+          <li><span>Phone</span><a href="tel:+18089563138">(808) 956-3138</a></li>
+          <li><span>Web</span><a href="https://www.hsfl.hawaii.edu/">hsfl.hawaii.edu</a></li>
+          <li><span>GitHub</span><a href="https://github.com/hsfl">github.com/hsfl</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p>© <span id="year">2026</span> Hawaiʻi Space Flight Laboratory · University of Hawaiʻi at Mānoa</p>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
