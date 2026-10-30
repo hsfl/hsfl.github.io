@@ -1,51 +1,873 @@
 [
   {
     "year": 2026,
+    "title": "HyTI-2: A Cryogenically Stabilized LWIR Hyperspectral CubeSat for High-Duty-Cycle Space Domain Awareness",
+    "authors": "M. Nunes, R. Wright, P. Lucey, L. Flynn, T. Sorensen, E. Pilger, S. Ginoza, M. Wood, L. Yoneshige, G. Guerrero, Y. Onodera, L. Anderson, C. Swenson, S. Babu",
+    "venue": "Advanced Maui Optical and Space Surveillance Technologies (AMOS) Conference, #26423",
+    "url": "https://doi.org/10.64861/GMQY8641",
+    "tags": [
+      "HyTI-2",
+      "SDA"
+    ]
+  },
+  {
+    "year": 2026,
+    "title": "Demonstration of a Low-Cost LWIR CubeSat Sensor Architecture for Distributed Thermal Space Domain Awareness",
+    "authors": "M. Nunes, N. Thompson, J. Sim, S. Mallari, D. Sarsozo Jr., J. Huang, J. Hasegawa, P. Lucey",
+    "venue": "Advanced Maui Optical and Space Surveillance Technologies (AMOS) Conference, #26421",
+    "url": "https://doi.org/10.64861/NYOP7944",
+    "tags": [
+      "SDA"
+    ]
+  },
+  {
+    "year": 2026,
+    "title": "Neutron-3: A Distributed CubeSat Swarm for Three-Dimensional Radiation Field Reconstruction in Cislunar Space",
+    "authors": "M. Nunes, P. Kline, I. Rashed, P. Englert, W. Edmonson",
+    "venue": "Advanced Maui Optical and Space Surveillance Technologies (AMOS) Conference, #26408",
+    "url": "https://amostech.com/TechnicalPapers/2026/Poster/Nunes1.pdf",
+    "tags": [
+      "Neutron-3",
+      "Swarms"
+    ]
+  },
+  {
+    "year": 2026,
+    "title": "Software-Defined SNACK Protocol for Reliable High-Throughput Data Transfer on MTU-Constrained Low-Cost UHF Radios",
+    "authors": "S. Mallari, D. Sarsozo, M. Nunes",
+    "venue": "Advanced Maui Optical and Space Surveillance Technologies (AMOS) Conference"
+  },
+  {
+    "year": 2026,
+    "title": "CubeSats for Climate Change Monitoring (C3M): Demonstrating Interferometric IR Payloads Scalable to Constellations",
+    "authors": "M. Nunes, P. Lucey, N. Thompson, J. Sim, S. Mallari, D. Sarsozo Jr., J. Huang, J. Hasegawa, M. Murillo",
+    "venue": "40th Annual AIAA/USU Conference on Small Satellites, SSC26-P2-24",
+    "url": "https://doi.org/10.26077/xkwn-ck32",
+    "tags": [
+      "Swarms",
+      "C3M"
+    ]
+  },
+  {
+    "year": 2026,
+    "title": "Software-Defined SNACK Protocol for Reliable High-Throughput Data Transfer on MTU-Constrained Low-Cost UHF Radios",
+    "authors": "S. Mallari, D. Sarsozo, M. Nunes",
+    "venue": "40th Annual AIAA/USU Conference on Small Satellites, SSC26-P1-73",
+    "url": "https://doi.org/10.26077/xm6r-ze23"
+  },
+  {
+    "year": 2026,
+    "title": "Demonstrating a Model-Based Systems Engineering Methodology for Small Satellites",
+    "authors": "M. Nunes, P. Kline",
+    "venue": "40th Annual AIAA/USU Conference on Small Satellites, SSC26-P1-61",
+    "tags": [
+      "MBSE"
+    ]
+  },
+  {
+    "year": 2026,
+    "title": "HyTI-2: Advancing Hyperspectral Thermal Imaging into the Era of Space-Based Edge Processing",
+    "authors": "M. Nunes, R. Wright, P. Lucey, L. Flynn, T. Sorensen, E. Pilger, S. Ginoza, M. Wood, L. Yoneshige, G. Guerrero, Y. Onodera, L. Anderson, C. Swenson, S. Babu",
+    "venue": "40th Annual AIAA/USU Conference on Small Satellites, SSC26-VII-01",
+    "url": "https://doi.org/10.26077/2s6z-xn69",
+    "tags": [
+      "HyTI-2"
+    ]
+  },
+  {
+    "year": 2026,
     "title": "HITechSat-1: A Rapidly Integrable 3U Platform for University CubeSat Missions",
-    "authors": "Kim et al.",
-    "venue": "40th Annual Small Satellite Conference, SSC26-P4-87",
-    "url": "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=6668&context=smallsat",
-    "tags": ["HITechSat-1"]
+    "authors": "S. Kim, M. Nunes, M. I. Rashed, L. Yoneshige, G. Guerrero, S. Ginoza, P. Kline",
+    "venue": "40th Annual AIAA/USU Conference on Small Satellites, SSC26-P4-87",
+    "url": "https://doi.org/10.26077/5ezb-q858",
+    "tags": [
+      "HITechSat-1"
+    ]
+  },
+  {
+    "year": 2026,
+    "title": "Neutron-2: A Dual CubeSat Mission for Three-Dimensional Mapping of Neutron Radiation in Low Earth Orbit",
+    "authors": "M. Nunes, P. Kline, K. Salvador, P. Englert, W. Edmonson, C. Hardgrove, E. B. Johnson",
+    "venue": "40th Annual AIAA/USU Conference on Small Satellites, SSC26-RAIII-07",
+    "tags": [
+      "Neutron-2"
+    ]
+  },
+  {
+    "year": 2026,
+    "title": "Design and Performance of the Active Thermal Architecture Technology for the Upcoming ACMES Mission",
+    "authors": "L. Anderson, C. Swenson, M. Nunes, R. Wright",
+    "venue": "40th Annual AIAA/USU Conference on Small Satellites, SSC26-III-05",
+    "url": "https://doi.org/10.26077/9579-bd21",
+    "tags": [
+      "ACMES"
+    ]
+  },
+  {
+    "year": 2026,
+    "title": "Cryocooler/Thermal System Design and Performance on the HyTI-2 Flight Mission",
+    "authors": "C. S. Kirkconnell, M. A. Nunes, J. M. Baxter, N. A. Hudson, R. W. Kaszeta, J. T. Greenhalgh, I. Ruelich, L. Anderson, S. Ginoza",
+    "venue": "International Cryocooler Conference, Cryocoolers vol. 24",
+    "tags": [
+      "HyTI-2"
+    ]
+  },
+  {
+    "year": 2026,
+    "title": "Conceptual MBSE Architecture for Autonomous and Cooperative CubeSat Swarms",
+    "authors": "M. Nunes, P. Kline, W. Edmonson, P. Casau, T. Sorensen, E. Pilger",
+    "venue": "Small Satellites Systems and Services Symposium (4S 2026), Paper 243",
+    "tags": [
+      "MBSE",
+      "Swarms"
+    ]
+  },
+  {
+    "year": 2026,
+    "title": "The Evolution of ACMES: How Science Performance, Thermal Control, and Onboard Processing Drove a CubeSat Concept into a Small Satellite Observatory",
+    "authors": "C. Swenson, L. Anderson, S. Babu, C. Fish, M. Nunes, R. Wright",
+    "venue": "Small Satellites Systems and Services Symposium (4S 2026), Paper 281",
+    "tags": [
+      "ACMES"
+    ]
+  },
+  {
+    "year": 2026,
+    "title": "HyTI-2: A Next-Generation Hyperspectral LWIR Payload Enabled by Active Thermal Architecture for Small Satellites",
+    "authors": "M. Nunes, R. Wright, P. Lucey, L. Flynn, L. Anderson, C. Swenson, S. Babu",
+    "venue": "Small Satellites Systems and Services Symposium (4S 2026), Paper 215",
+    "tags": [
+      "HyTI-2",
+      "ACMES"
+    ]
+  },
+  {
+    "year": 2026,
+    "title": "The Active Thermal Architecture (ATA): An Advanced and Scalable Single-Phase Pumped Fluid Loop Active Thermal Control Technology for the Next Generation of High-Powered Payloads and Small Satellites",
+    "authors": "L. Anderson, C. Swenson, C. Fish, M. Nunes, R. Wright",
+    "venue": "Small Satellites Systems and Services Symposium (4S 2026), Paper 138",
+    "tags": [
+      "ACMES"
+    ]
+  },
+  {
+    "year": 2026,
+    "title": "From Defense to Civil Space: Interoperable Mission Services for Autonomous Space Operations",
+    "authors": "F. Bruhn, S. Petrik, N. Tsog, K. Kikuchi, H. Koyama, N. Nicholson, S. Moro, M. Nunes, L. Anderson, T. George",
+    "venue": "Small Satellites Systems and Services Symposium (4S 2026)"
+  },
+  {
+    "year": 2026,
+    "title": "CubeSat Drone: The Development of a CubeSat Experimental Testbed",
+    "authors": "M. A. Nunes, P. Casau",
+    "venue": "2026 IEEE Aerospace Conference, Big Sky, MT",
+    "url": "https://doi.org/10.1109/AERO66936.2026.11519814"
+  },
+  {
+    "year": 2025,
+    "title": "ACMES: The Next Generation of Multispectral Earth Observations from a Small Satellite Platform",
+    "authors": "L. Anderson, C. Fish, M. Kirk, C. Swenson, M. Nunes, R. Wright, B. Mattos",
+    "venue": "Proc. SPIE 13614, CubeSats, SmallSats, and Hosted Payloads for Remote Sensing IX",
+    "url": "https://doi.org/10.1117/12.3067717",
+    "tags": [
+      "ACMES"
+    ]
+  },
+  {
+    "year": 2025,
+    "title": "Neutron-2: Advancing Space Weather Monitoring and Anomaly Detection with a Dual CubeSat System",
+    "authors": "M. Nunes, P. Kline, P. Englert, C. Hardgrove, W. Edmonson, S. Ginoza",
+    "venue": "Advanced Maui Optical and Space Surveillance Technologies (AMOS) Conference, Art. no. 126",
+    "tags": [
+      "Neutron-2"
+    ]
+  },
+  {
+    "year": 2025,
+    "title": "ACMES: The Next-Generation of Advanced LWIR Observations of the Earth",
+    "authors": "L. Anderson, M. Kirk, C. Fish, B. Mattos, C. Swenson, M. Nunes, R. Wright",
+    "venue": "39th Annual Small Satellite Conference, SSC25-II-03",
+    "url": "https://digitalcommons.usu.edu/smallsat/2025/all2025/159/",
+    "tags": [
+      "ACMES"
+    ]
+  },
+  {
+    "year": 2025,
+    "title": "Developing a Model-Based Systems Engineering Methodology for Academic CubeSat Missions",
+    "authors": "P. L. Kline, M. A. Nunes",
+    "venue": "39th Annual Small Satellite Conference",
+    "tags": [
+      "MBSE"
+    ]
+  },
+  {
+    "year": 2025,
+    "title": "Enabling the Next Generation of Advanced Small Satellites Through Active Thermal Control",
+    "authors": "L. Anderson, C. Swenson, B. Mattos, C. Fish, M. Nunes, R. Wright",
+    "venue": "Proc. SPIE 13546, Small Satellites Systems and Services Symposium (4S 2024)",
+    "url": "https://doi.org/10.1117/12.3062477",
+    "tags": [
+      "ACMES"
+    ]
+  },
+  {
+    "year": 2025,
+    "title": "An Evaluation of Flight Software Platforms for Small Satellite Missions",
+    "authors": "M. Nunes, E. Chee, O. Montoya, W. Edmonson, S. Ginoza, E. Pilger",
+    "venue": "Proc. SPIE 13546, Small Satellites Systems and Services Symposium (4S 2024)",
+    "url": "https://doi.org/10.1117/12.3062481"
+  },
+  {
+    "year": 2025,
+    "title": "Hyperspectral LWIR Imaging of the Earth's Surface from a Small Satellite: The Second-Generation Hyperspectral Thermal Imager (HyTI 2.0)",
+    "authors": "L. S. Anderson, M. Nunes, R. Wright, C. S. Fish, C. Swenson",
+    "venue": "SPIE Sensors, Systems, and Next-Generation Satellites XXIX",
+    "tags": [
+      "HyTI-2",
+      "HyTI"
+    ]
+  },
+  {
+    "year": 2025,
+    "title": "ACMES: Demonstrating Advanced Thermal and Remote Sensing Technologies for CubeSat-Based Earth Observation",
+    "authors": "C. Swenson, L. Anderson, C. Fish, B. Mattos, M. Nunes, R. Wright",
+    "venue": "2025 IEEE International Geoscience and Remote Sensing Symposium (IGARSS)",
+    "tags": [
+      "ACMES"
+    ]
+  },
+  {
+    "year": 2025,
+    "title": "Optimizing CubeSat Development through Lean Manufacturing Principles",
+    "authors": "S. Ginoza, G. Guerrero, M. Nunes",
+    "venue": "LeanSat Conference 2025"
+  },
+  {
+    "year": 2024,
+    "title": "Multi-Spectral and Hyperspectral Earth Remote-Sensing Instruments Based on T2SL Infrared Focal Plane Arrays",
+    "authors": "S. Gunapala, W. Johnson, D. Ting, A. Soibel, S. Rafol, S. Keo, B. Pepper, C. Hill, O. Kalashnikova, M. Garay, A. Davies, A. Sood, J. Zeller, C. David, P. Lucey, R. Wright, M. Nunes, S. Babu, P. Ghuman",
+    "venue": "Proc. SPIE 13266, Multispectral, Hyperspectral, and Ultraspectral Remote Sensing Technology, Techniques, and Applications VIII",
+    "url": "https://doi.org/10.1117/12.3035002",
+    "tags": [
+      "Detectors"
+    ]
+  },
+  {
+    "year": 2024,
+    "title": "Spectroscopic Investigation of the Coronal Emission During the 2024 April 8 Total Solar Eclipse Onboard NASA's WB-57 High-Altitude Research Aircraft",
+    "authors": "A. Ding, S. R. Habbal, O. Meyer, M. A. Nunes, L. Yoneshige, G. Guerrero",
+    "venue": "AGU Fall Meeting 2024, SH51D-2927",
+    "tags": [
+      "Solar eclipse"
+    ]
+  },
+  {
+    "year": 2024,
+    "title": "Imaging the Corona in the Fe X 637.4 nm and Fe XIV 530.3 nm Emission Lines Onboard the NASA WB-57F Research Aircraft During the 2024 April 8 Total Solar Eclipse",
+    "authors": "M. Justen, B. Justen, O. Mayer, S. R. Habbal, J. Johnson, M. A. Nunes, M. Starha",
+    "venue": "AGU Fall Meeting 2024, SH51D-2926",
+    "tags": [
+      "Solar eclipse"
+    ]
+  },
+  {
+    "year": 2024,
+    "title": "Applications of T2SL Barrier Infrared Detectors for SmallSat Platforms",
+    "authors": "S. D. Gunapala, D. Ting, W. Johnson, S. Rafol, A. Soibel, S. Keo, B. Pepper, C. Hill, O. Kalashnikova, M. Garay, A. Davies, Y. Maruyama, C. David, D. Manitakos, R. Wright, P. Lucey, M. Nunes, C. Swenson, L. Anderson, M. Sundaram, J. Bundas, S. Babu, P. Ghuman",
+    "venue": "Proc. SPIE PC13146, CubeSats, SmallSats, and Hosted Payloads for Remote Sensing VIII",
+    "url": "https://doi.org/10.1117/12.3028799",
+    "tags": [
+      "Detectors"
+    ]
+  },
+  {
+    "year": 2024,
+    "title": "Active Cooling for Multispectral Earth Sensors (ACMES): Science Objectives, Technology, and Active Thermal Control",
+    "authors": "L. Anderson, C. Swenson, C. Fish, B. Mattos, M. Nunes, R. Wright",
+    "venue": "IGARSS 2024 - IEEE International Geoscience and Remote Sensing Symposium, Athens, Greece",
+    "url": "https://doi.org/10.1109/IGARSS53475.2024.10641087",
+    "tags": [
+      "ACMES"
+    ]
+  },
+  {
+    "year": 2024,
+    "title": "The ACMES Triton Satellite: A Versatile Platform for the Next Generation of Advanced High Power CubeSats",
+    "authors": "L. Anderson, C. Frazier, C. Fish, B. Mattos, M. Kirk, C. Swenson, M. Nunes, R. Wright",
+    "venue": "38th Annual Small Satellite Conference, SSC24-II-02",
+    "tags": [
+      "ACMES"
+    ]
+  },
+  {
+    "year": 2024,
+    "title": "Ground-Based Attitude Determination and Control System Testing",
+    "authors": "P. L. Kline, M. A. Nunes, K. Matsunaga, Y. Ben Gershom",
+    "venue": "38th Annual Small Satellite Conference, SSC24-WP2-23"
+  },
+  {
+    "year": 2024,
+    "title": "Applications of T2SL Barrier Infrared Detectors in Earth Observational Instruments",
+    "authors": "S. D. Gunapala, W. Johnson, D. Ting, A. Soibel, S. Rafol, S. Keo, B. Pepper, C. Hill, O. Kalashnikova, M. Garay, A. Davies, A. Sood, J. Zeller, P. Lucey, R. Wright, M. Nunes, S. Babu, P. Ghuman",
+    "venue": "SPIE Image Sensing Technologies: Materials, Devices, Systems, and Applications XI",
+    "url": "https://doi.org/10.1117/12.3014555",
+    "tags": [
+      "Detectors"
+    ]
+  },
+  {
+    "year": 2024,
+    "title": "Jitter Characterization of the HyTI Satellite",
+    "authors": "C. Urasaki, F. Zhu, M. Bottom, M. Nunes, A. Walk",
+    "venue": "2024 IEEE Aerospace Conference, Big Sky, MT",
+    "url": "https://doi.org/10.1109/AERO58975.2024.10521402",
+    "tags": [
+      "HyTI"
+    ]
+  },
+  {
+    "year": 2023,
+    "title": "Long Wavelength Type-II Superlattice Barrier Infrared Detector for CubeSat Hyperspectral Thermal Imager",
+    "authors": "S. B. Rafol, S. D. Gunapala, D. Z. Ting, A. Soibel, A. Khoshakhlagh, S. A. Keo, B. J. Pepper, C. J. Hill, Y. Maruyama, A. M. Fisher, A. Sood, J. Zeller, R. Wright, P. Lucey, M. Nunes, L. Flynn, S. Babu, P. Ghuman",
+    "venue": "Opto-Electronics Review, vol. 31",
+    "url": "https://doi.org/10.24425/opelre.2023.144569",
+    "tags": [
+      "HyTI"
+    ]
+  },
+  {
+    "year": 2023,
+    "title": "Integrated Active Thermal Control for Hyperspectral LWIR Imaging on Advanced High-Powered CubeSat Platforms",
+    "authors": "L. S. Anderson, B. Mattos, B. Lewis, C. Swenson, C. Fish, M. Nunes, R. Wright",
+    "venue": "SPIE Sensors, Systems, and Next-Generation Satellites XXVII",
+    "url": "https://doi.org/10.1117/12.2679913",
+    "tags": [
+      "ACMES"
+    ]
+  },
+  {
+    "year": 2023,
+    "title": "Enhancing Space Workforce Education through Innovative Delivery of a University of Hawai'i Space Science and Engineering Program: A Strategic Outlook",
+    "authors": "P. Englert, M. Nunes, W. Edmonson",
+    "venue": "AIAA ASCEND 2023",
+    "url": "https://doi.org/10.2514/6.2023-4709",
+    "tags": [
+      "Education"
+    ]
+  },
+  {
+    "year": 2023,
+    "title": "Applications of T2SL Barrier Infrared Detectors in Observational Instruments",
+    "authors": "S. D. Gunapala, W. R. Johnson, D. Z. Ting, A. Soibel, S. B. Rafol, S. A. Keo, B. J. Pepper, C. J. Hill, O. Kalashnikova, M. J. Garay, A. G. Davies, A. Sood, J. Zeller, P. G. Lucey, R. Wright, M. Nunes, S. Babu, P. Ghuman",
+    "venue": "SPIE Sensors, Systems, and Next-Generation Satellites XXVII",
+    "url": "https://doi.org/10.1117/12.2679191",
+    "tags": [
+      "Detectors"
+    ]
+  },
+  {
+    "year": 2023,
+    "title": "Development of T2SLS LWIR Focal Plane Arrays for the Hyperspectral Thermal Imager (HyTI)",
+    "authors": "S. Gunapala, D. Ting, S. Rafol, A. Soibel, A. Khoshakhlagh, S. Keo, B. Pepper, A. Fisher, C. Hill, A. Sood, J. Zeller, P. Lucey, R. Wright, M. Nunes, L. Flynn, S. Babu, P. Ghuman",
+    "venue": "International Conference on Space Optics (ICSO 2022), SPIE",
+    "url": "https://doi.org/10.1117/12.2690546",
+    "tags": [
+      "HyTI",
+      "Detectors"
+    ]
+  },
+  {
+    "year": 2023,
+    "title": "Science Applications of the Active Cooling for Multispectral Earth Sensors (ACMES) Mission",
+    "authors": "C. Swenson, L. Anderson, R. Antonuccio, C. Fish, M. Kirk, B. Lewis, B. Mattos, J. Wellington, M. Nunes, R. Wright",
+    "venue": "IGARSS 2023 - IEEE International Geoscience and Remote Sensing Symposium",
+    "url": "https://doi.org/10.1109/IGARSS52108.2023.10282977",
+    "tags": [
+      "ACMES"
+    ]
+  },
+  {
+    "year": 2023,
+    "title": "Hyperspectral Earth Imaging in the LWIR and SWIR with the ACMES Mission",
+    "authors": "C. Swenson, L. S. Anderson, B. Mattos, B. Lewis, C. Fish, M. Nunes, R. Wright, M. Schoeberl",
+    "venue": "SPIE Sensors, Systems, and Next-Generation Satellites XXVII",
+    "url": "https://doi.org/10.1117/12.2680358",
+    "tags": [
+      "ACMES"
+    ]
+  },
+  {
+    "year": 2023,
+    "title": "A Bimodal Science Measurements for Earth Remote Sensing on a 3U CubeSat Platform",
+    "authors": "K. M. Vicuña, Y. Shan Liu, N. Mazzarella, J. Crawford, M. B. Leonard, S. Devis, G. Miguel Matsumoto, S. P. Moroney, K. H. Son, A. X. Vu, Y. Zeng, N. Clemons, M. A. Nunes, P. A. Englert",
+    "venue": "37th Annual Small Satellite Conference, SSC23-WV-09"
+  },
+  {
+    "year": 2023,
+    "title": "The HyTI Mission",
+    "authors": "R. Wright, M. Nunes, P. Lucey, S. Gunapala, S. Rafol, D. Ting, C. Ferrari-Wong, L. Flynn, T. George",
+    "venue": "SPIE Sensors, Systems, and Next-Generation Satellites XXVII",
+    "url": "https://doi.org/10.1117/12.2679541",
+    "tags": [
+      "HyTI"
+    ]
+  },
+  {
+    "year": 2022,
+    "title": "Hyperspectral Thermal Imaging CubeSat for SSA Applications",
+    "authors": "M. Nunes, F. Bruhn, R. Wright, P. Lucey, C. Ferrari-Wong, L. Flynn, E. Pilger, A. Imai-Hong, F. Zhu, L. Yoneshige, Y. Ben Gershom, T. Sorensen",
+    "venue": "Advanced Maui Optical and Space Surveillance Technologies (AMOS) Conference, Wailea, Maui",
+    "url": "https://amostech.com/TechnicalPapers/2022/Space-Based-Assets/Nunes.pdf",
+    "tags": [
+      "SDA"
+    ]
+  },
+  {
+    "year": 2022,
+    "title": "Substellar Weather Infrared Explorer (SUWIE)",
+    "authors": "M. Bottom, M. Nunes, M. Liu, C.-A. Claveau, F. Zhu, S. Jacobson, K. Hodapp, L. Flynn, X. Zhang, M. Loose",
+    "venue": "American Astronomical Society Meeting, vol. 54, no. 6"
+  },
+  {
+    "year": 2022,
+    "title": "Active Thermal Control for the Multispectral Earth Sensors (ACMES) Mission",
+    "authors": "L. Anderson, B. Mattos, M. Kirk, C. Swenson, C. Fish, M. Nunes, R. Wright",
+    "venue": "36th Annual AIAA/USU Small Satellite Conference",
+    "tags": [
+      "ACMES"
+    ]
   },
   {
     "year": 2022,
     "title": "University of Hawaii's Spaceflight-Ready, Low-Cost, Open-Source, Educational Artemis CubeSat Kit",
     "authors": "",
-    "venue": "36th Annual Small Satellite Conference",
+    "venue": "36th Annual AIAA/USU Small Satellite Conference",
     "url": "https://digitalcommons.usu.edu/smallsat/2022/all2022/76/",
-    "tags": ["Artemis", "Education"]
+    "tags": [
+      "Artemis",
+      "Education"
+    ]
+  },
+  {
+    "year": 2022,
+    "title": "HyTI: High Spectral Resolution Thermal Imaging from a CubeSat",
+    "authors": "R. Wright, M. Nunes, P. Lucey, S. Gunapala, D. Ting, C. Ferrari-Wong, L. Flynn, S. Rafol, A. Soibel",
+    "venue": "IGARSS 2022 - IEEE International Geoscience and Remote Sensing Symposium, pp. 7143-7145",
+    "tags": [
+      "HyTI"
+    ]
+  },
+  {
+    "year": 2022,
+    "title": "Development of LWIR Focal Plane Arrays for the Hyperspectral Thermal Imager (HyTI)",
+    "authors": "S. Gunapala, S. Rafol, D. Ting, A. Soibel, A. Khoshakhlagh, S. Keo, B. Pepper, A. Fisher, C. Hill, P. Lucey, R. Wright, M. Nunes, L. Flynn, A. Sood, S. Babu, P. Ghuman",
+    "venue": "IGARSS 2022 - IEEE International Geoscience and Remote Sensing Symposium, pp. 7153-7156",
+    "tags": [
+      "HyTI"
+    ]
+  },
+  {
+    "year": 2022,
+    "title": "Mid-Wavelength and Long-Wavelength Infrared Focal Planes for SmallSat Applications",
+    "authors": "S. D. Gunapala, D. Z. Ting, S. B. Rafol, A. Soibel, A. Khoshakhlagh, S. A. Keo, B. J. Pepper, A. M. Fisher, C. J. Hill, T. Pagano, A. Sood, J. Zeller, P. Lucey, R. Wright, M. Nunes, S. Babu, P. Ghuman",
+    "venue": "Proc. SPIE 12091, Image Sensing Technologies: Materials, Devices, Systems, and Applications IX"
+  },
+  {
+    "year": 2022,
+    "title": "Design Platform for Multi-Agent Communication System for Resilient CubeSat Swarms",
+    "authors": "W. Edmonson, M. Nunes",
+    "venue": "4S Symposium, Vilamoura, Portugal",
+    "tags": [
+      "Swarms"
+    ]
+  },
+  {
+    "year": 2022,
+    "title": "HyTI Mission: Raw Thermal Instrument On-Orbit Data Processing with SpaceCloud",
+    "authors": "F. C. Bruhn, A. Anlind, M. Nunes, E. Pilger, A. Imai-Hong, M. Wood, R. Wright, P. Lucey, L. Flynn",
+    "venue": "4S Symposium, Vilamoura, Portugal",
+    "tags": [
+      "HyTI"
+    ]
+  },
+  {
+    "year": 2022,
+    "title": "HyTI: High Spatial and Spectral Resolution Thermal Imaging from a 6U CubeSat",
+    "authors": "R. Wright, P. Lucey, M. Nunes, S. Gunapala, S. Rafol, D. Ting, L. Flynn, C. Ferrari-Wong, A. Soibel, T. George",
+    "venue": "4S Symposium, Vilamoura, Portugal",
+    "tags": [
+      "HyTI"
+    ]
+  },
+  {
+    "year": 2022,
+    "title": "Rockstar: A Thermal Infrared Hyperspectral Imager for Meter Scale Data Collection from Orbit",
+    "authors": "C. Ferrari-Wong, P. G. Lucey, B. Bussey, S. Gunapala, C. I. Honniball, M. A. Nunes, N. Petro, D. Ting, R. Wright",
+    "venue": "53rd Lunar and Planetary Science Conference",
+    "tags": [
+      "Lunar"
+    ]
+  },
+  {
+    "year": 2021,
+    "title": "Rockstar: A Thermal Infrared Hyperspectral Imager for Meter Scale Data Collection from Orbit",
+    "authors": "C. Ferrari-Wong, P. Lucey, B. Bussey, S. Gunapala, C. Honniball, M. Nunes, N. Petro, D. Ting, R. Wright",
+    "venue": "AGU Fall Meeting 2021, P52A-02"
+  },
+  {
+    "year": 2021,
+    "title": "HyTI: High Spatial and Spectral Resolution Thermal Remote Sensing from a Cube Satellite",
+    "authors": "R. Wright, M. Nunes, P. Lucey, S. Gunapala, D. Ting, S. Rafol, Y. Maruyama, A. Soibel, C. Ferrari-Wong, A. Gabrieli",
+    "venue": "AGU Fall Meeting 2021, GC11A-01",
+    "tags": [
+      "HyTI"
+    ]
+  },
+  {
+    "year": 2021,
+    "title": "Digital Mid-Wavelength and Long-Wavelength Infrared Focal Planes for SmallSat Applications",
+    "authors": "S. Gunapala, D. Ting, S. Rafol, A. Soibel, A. Khoshakhlagh, S. Keo, B. Pepper, A. Fisher, C. Hill, T. Wenger, T. Pagano, M. Kelly, J. Baker, C. David, P. Lucey, R. Wright, M. Nunes, L. Flynn, S. Babu, P. Ghuman",
+    "venue": "Proc. SPIE 11858, Sensors, Systems, and Next-Generation Satellites XXV",
+    "url": "https://doi.org/10.1117/12.2596653"
+  },
+  {
+    "year": 2021,
+    "title": "T2SL Focal Planes for Compact Remote Sensing Instruments",
+    "authors": "S. Gunapala, D. Ting, S. Rafol, A. Soibel, A. Khoshakhlagh, S. Keo, B. Pepper, A. Fisher, C. Hill, T. Wenger, T. Pagano, K.-K. Choi, P. Lucey, R. Wright, M. Nunes, L. Flynn, S. Babu, P. Ghuman",
+    "venue": "Proc. SPIE 11723, Image Sensing Technologies: Materials, Devices, Systems, and Applications VIII",
+    "url": "https://doi.org/10.1117/12.2595798",
+    "tags": [
+      "Detectors"
+    ]
+  },
+  {
+    "year": 2021,
+    "title": "HyTI: Thermal Infrared Spectroscopy from a 6U Platform",
+    "authors": "R. Wright, P. Lucey, L. Flynn, C. Ferrari-Wong, A. Gabrieli, M. Nunes, S. Gunapala, D. Ting, S. Rafol, A. Soibel",
+    "venue": "35th Annual Small Satellite Conference, SSC21-II-11",
+    "tags": [
+      "HyTI"
+    ]
+  },
+  {
+    "year": 2021,
+    "title": "Mid-Wavelength and Long-Wavelength Infrared Focal Planes for SmallSat Applications",
+    "authors": "S. D. Gunapala, D. Z. Ting, S. B. Rafol, A. Soibel, A. Khoshakhlagh, S. A. Keo, B. J. Pepper, A. M. Fisher, C. J. Hill, T. S. Pagano, M. W. Kelly, J. J. Baker, C. David, P. G. Lucey, R. Wright, M. A. Nunes, L. Flynn, S. R. Babu, P. Ghuman",
+    "venue": "Proc. SPIE 11831, Infrared Sensors, Devices, and Applications XI",
+    "url": "https://doi.org/10.1117/12.2604385"
+  },
+  {
+    "year": 2021,
+    "title": "Ke Ao: A Low-Cost 1U CubeSat for Aerospace Education and Research in Hawaii",
+    "authors": "L. D. Young, M. A. Nunes, A. Z. Trimble, C. Amendola, A. Brandt, H. Patton, A. Perez, R. Terry, W. Tuifua, D. Whittingham",
+    "venue": "35th Annual AIAA/USU Conference on Small Satellites",
+    "tags": [
+      "Education"
+    ]
+  },
+  {
+    "year": 2021,
+    "title": "The Hyperspectral Thermal Imager: High Spectral and Spatial Resolution Thermal Imaging from a 6U Platform",
+    "authors": "R. Wright, P. Lucey, M. Nunes, S. Gunapala, D. Ting, A. Soibel, C. Ferrari-Wong, T. George",
+    "venue": "Proc. SPIE 11831, Infrared Sensors, Devices, and Applications XI",
+    "tags": [
+      "HyTI"
+    ]
+  },
+  {
+    "year": 2021,
+    "title": "High Operating Temperature T2SL Digital Focal Plane Arrays for Earth Remote Sensing Instruments",
+    "authors": "S. Gunapala, D. Ting, S. Rafol, A. Soibel, A. Khoshakhlagh, S. Keo, B. Pepper, A. Fisher, C. Hill, T. Wenger, T. Pagano, M. Kelly, J. Baker, C. David, P. Lucey, R. Wright, M. Nunes, L. Flynn, S. Babu, P. Ghuman",
+    "venue": "Proc. SPIE 11741, Infrared Technology and Applications XLVII",
+    "url": "https://doi.org/10.1117/12.2589648",
+    "tags": [
+      "Detectors"
+    ]
+  },
+  {
+    "year": 2020,
+    "title": "Integration of a Tactical Cryocooler for 6U CubeSat Hyperspectral Thermal Imager",
+    "authors": "C. S. Kirkconnell, M. A. Nunes, I. Ruelich, M. V. Zagarola, S. B. Rafol",
+    "venue": "Cryocoolers, vol. 21",
+    "tags": [
+      "HyTI"
+    ]
+  },
+  {
+    "year": 2020,
+    "title": "HyTI: High Spectral Resolution Thermal Imaging from a 6U CubeSat",
+    "authors": "R. Wright, M. A. Nunes, P. G. Lucey, L. Flynn, C. Ferrari-Wong, S. Gunapala, S. B. Rafol, D. Ting, A. Soibel, T. George",
+    "venue": "AGU Fall Meeting 2020, GC029-09",
+    "tags": [
+      "HyTI"
+    ]
+  },
+  {
+    "year": 2020,
+    "title": "1-Meter Resolution Hyperspectral Thermal Infrared Imager Concept for Lunar Polar Exploration",
+    "authors": "C. M. Ferrari-Wong, P. G. Lucey, R. Wright, M. A. Nunes",
+    "venue": "AGU Fall Meeting 2020, P060-05",
+    "tags": [
+      "Lunar"
+    ]
+  },
+  {
+    "year": 2020,
+    "title": "T2SLS Focal Planes for Compact Remote Sensing Instruments",
+    "authors": "S. Gunapala, D. Ting, S. Rafol, A. Soibel, A. Khoshakhlagh, S. Keo, B. Pepper, A. Fisher, C. Hill, E. Luong, T. Pagano, P. Lucey, R. Wright, M. Nunes, L. Flynn, S. Babu, P. Ghuman",
+    "venue": "Proc. SPIE 11530, Sensors, Systems, and Next-Generation Satellites XXIV",
+    "tags": [
+      "Detectors"
+    ]
+  },
+  {
+    "year": 2020,
+    "title": "HyTI: High Spectral and Spatial Resolution Thermal Imaging from a 6U CubeSat",
+    "authors": "R. Wright, P. Lucey, L. Flynn, C. Ferrari-Wong, A. Gabrieli, M. Nunes, S. Gunapala, S. Rafol, D. Ting, A. Soibel, T. George",
+    "venue": "34th Annual AIAA/USU Conference on Small Satellites",
+    "tags": [
+      "HyTI"
+    ]
+  },
+  {
+    "year": 2020,
+    "title": "A Thermal Hyperspectral CubeSat Concept for Lunar Exploration",
+    "authors": "C. M. Ferrari-Wong, P. G. Lucey, R. Wright, M. A. Nunes",
+    "venue": "51st Lunar and Planetary Science Conference, LPI Contribution No. 2326, id. 1899",
+    "tags": [
+      "Lunar"
+    ]
+  },
+  {
+    "year": 2020,
+    "title": "Antimonides T2SL Mid-Wave and Long-Wave Infrared Focal Plane Arrays for Earth Remote Sensing Applications",
+    "authors": "S. D. Gunapala, D. Z. Ting, S. B. Rafol, A. Soibel, A. Khoshakhlagh, S. A. Keo, B. J. Pepper, A. M. Fisher, C. J. Hill, T. Pagano, P. Lucey, R. Wright, M. Nunes, L. Flynn, S. Babu, P. Ghuman",
+    "venue": "Proc. SPIE 11288, Quantum Sensing and Nano Electronics and Photonics XVII",
+    "tags": [
+      "Detectors"
+    ]
   },
   {
     "year": 2019,
-    "title": "HYTI: Thermal Hyperspectral Imaging From a CubeSat Platform",
+    "title": "Enhanced Spacecraft Attitude Determination and Control System Test Bed for Small Satellites",
+    "authors": "T. C. Sorensen, L. Flynn, M. A. Nunes, E. Pilger, L. Yoneshige, I. Rodrigues, A. Imai-Hong, Y. Ben Gershom, C. Opie",
+    "venue": "2019 Defense TechConnect Innovation Summit, National Harbor, MD"
+  },
+  {
+    "year": 2019,
+    "title": "Neutron-1 Mission: Low Earth Orbit Neutron Flux Detection and COSMOS Mission Operations Technology Demonstration",
+    "authors": "M. A. Nunes, L. French, P. A. J. Englert, E. J. Pilger, L. Yoneshige, I. Rodrigues, Y. Ben Gershom, A. Imai-Hong, K. Hagi, C. Opie, L. P. Flynn, C. Hardgrove, B. Roebuck",
+    "venue": "33rd Annual AIAA/USU Conference on Small Satellites, Logan, UT",
+    "url": "https://digitalcommons.usu.edu/smallsat/2019/all2019/124/",
+    "tags": [
+      "Neutron-1",
+      "COSMOS"
+    ]
+  },
+  {
+    "year": 2019,
+    "title": "HyTI: Thermal Hyperspectral Imaging from a CubeSat Platform",
     "authors": "R. Wright, P. Lucey, L. Flynn, M. Nunes, et al.",
     "venue": "33rd Annual AIAA/USU Conference on Small Satellites, SSC19-WKIV-02",
     "url": "https://digitalcommons.usu.edu/smallsat/2019/all2019/70/",
-    "tags": ["HyTI"]
+    "tags": [
+      "HyTI"
+    ]
   },
   {
     "year": 2019,
-    "title": "NEUTRON-1 Mission: Low Earth Orbit Neutron Flux Detection and COSMOS Mission Operations Technology Demonstration",
-    "authors": "M. Nunes et al.",
-    "venue": "33rd Annual AIAA/USU Conference on Small Satellites",
-    "url": "https://digitalcommons.usu.edu/smallsat/2019/all2019/124/",
-    "tags": ["Neutron-1", "COSMOS"]
+    "title": "CubeSats and Small Satellites",
+    "authors": "J. Straub, M. Swartwout, M. Nunes, V. Lappas",
+    "venue": "International Journal of Aerospace Engineering, Special Issue on Small Satellites",
+    "url": "https://doi.org/10.1155/2019/9451673"
+  },
+  {
+    "year": 2017,
+    "title": "Design and Development of a 3U CubeSat ADCS Testing Assembly with Matching Inertia Tensor",
+    "authors": "J. Ang, Y. Ben Gershom, B. Onodera, M. Rayno, M. A. Nunes, A. Z. Trimble",
+    "venue": "AIAA/USU Conference on Small Satellites, SSC17-P2-10"
+  },
+  {
+    "year": 2015,
+    "title": "6DoF GNC Simulation Framework for Multiple Small Satellites Using COSMOS",
+    "authors": "M. A. Nunes, T. C. Sorensen, E. J. Pilger",
+    "venue": "10th IAA Symposium on Small Satellites for Earth Observation, Berlin, Germany",
+    "tags": [
+      "COSMOS",
+      "Swarms"
+    ]
+  },
+  {
+    "year": 2015,
+    "title": "COSMOS - An Innovative Nodal Architecture for Controlling Large Numbers of Small Satellites and Other Diverse Assets",
+    "authors": "T. Sorensen, E. Pilger, M. A. Nunes",
+    "venue": "7th International Conference on Recent Advances in Space Technologies (RAST), IEEE, pp. 385-389",
+    "tags": [
+      "COSMOS"
+    ]
+  },
+  {
+    "year": 2015,
+    "title": "On the Development of a 6DoF GNC Framework for Docking Multiple Small Satellites",
+    "authors": "M. A. Nunes, T. C. Sorensen, E. J. Pilger",
+    "venue": "AIAA Guidance, Navigation, and Control Conference, AIAA SciTech Forum",
+    "url": "https://doi.org/10.2514/6.2015-0868",
+    "tags": [
+      "Swarms"
+    ]
+  },
+  {
+    "year": 2015,
+    "title": "The COSMOS Mission Operations System and Its Application to the HawaiiSat-1 Mission to Test New Remote Sensing Technologies",
+    "authors": "T. C. Sorensen, J. Chan, M. A. Nunes, E. J. Pilger, R. Wright, L. K. Yoneshige",
+    "venue": "10th IAA Symposium on Small Satellites for Earth Observation, Berlin, Germany",
+    "tags": [
+      "COSMOS",
+      "HawaiiSat-1"
+    ]
+  },
+  {
+    "year": 2014,
+    "title": "Cooperative Control of Multiple Small Satellites Using the Comprehensive Open-Architecture Space Mission Operations System",
+    "authors": "M. A. Nunes, T. C. Sorensen, E. J. Pilger",
+    "venue": "9th International ESA Conference on Guidance, Navigation & Control Systems, Oporto, Portugal",
+    "tags": [
+      "COSMOS",
+      "Swarms"
+    ]
+  },
+  {
+    "year": 2014,
+    "title": "Expanding the Comprehensive Open-Architecture Space Mission Operations System (COSMOS) for Integrated Guidance, Navigation and Control of Multiple Small Satellites",
+    "authors": "M. A. Nunes, T. C. Sorensen, E. J. Pilger, H. M. Garbeil, J. R. Lewis, D. M. Azimov, M. Wood",
+    "venue": "13th International Conference on Space Operations (SpaceOps 2014), AIAA",
+    "tags": [
+      "COSMOS",
+      "Swarms"
+    ]
   },
   {
     "year": 2014,
     "title": "New Gateway to Space for Small Satellites by the Hawaii Space Flight Laboratory",
     "authors": "T. C. Sorensen, M. A. Nunes, J. K. Chan, E. J. Pilger, L. K. Yoneshige",
-    "venue": "Small Satellite Systems and Services Symposium (4S), Porto Petro, Majorca, Spain",
-    "url": "https://www.researchgate.net/publication/272418376_New_Gateway_to_Space_for_Small_Satellites_by_the_Hawaii_Space_Flight_Laboratory",
-    "tags": ["ORS-4"]
+    "venue": "Small Satellites Systems and Services Symposium (4S), Porto Petro, Majorca, Spain",
+    "url": "https://www.researchgate.net/publication/272418376_New_Gateway_to_Space_for_Small_Satellites_by_the_Hawaii_Space_Flight_Laboratory"
+  },
+  {
+    "year": 2014,
+    "title": "Implementing the Comprehensive Open-Architecture Space Mission Operations System (COSMOS) to Operate Multiple CubeSats",
+    "authors": "T. C. Sorensen, E. J. Pilger, M. A. Nunes",
+    "venue": "11th Annual CubeSat Developers' Workshop, San Luis Obispo, CA",
+    "tags": [
+      "COSMOS"
+    ]
+  },
+  {
+    "year": 2013,
+    "title": "Satellite Constellation Optimization Method for Future Earth Observation Missions Using Small Satellites",
+    "authors": "M. A. Nunes",
+    "venue": "Advances in the Astronautical Sciences, vol. 146, pp. 159-179",
+    "tags": [
+      "Swarms"
+    ]
+  },
+  {
+    "year": 2013,
+    "title": "Mission Design and Operations of a Constellation of Small Satellites for Remote Sensing",
+    "authors": "T. C. Sorensen, E. J. Pilger, M. S. Wood, M. A. Nunes, L. K. Yoneshige",
+    "venue": "Proc. SPIE 8739, Sensors and Systems for Space Applications VI",
+    "tags": [
+      "Swarms"
+    ]
+  },
+  {
+    "year": 2012,
+    "title": "Plug and Play Mission Operations",
+    "authors": "T. Sorensen, E. Pilger, B. Yost, M. Nunes, J. Differding",
+    "venue": "2012 IEEE Aerospace Conference",
+    "url": "https://doi.org/10.1109/AERO.2012.6187394",
+    "tags": [
+      "COSMOS"
+    ]
+  },
+  {
+    "year": 2012,
+    "title": "A University-Developed Comprehensive Open-Architecture Space Mission Operations System (COSMOS) to Operate Multiple Space Vehicles",
+    "authors": "T. C. Sorensen, E. J. Pilger, M. S. Wood, M. A. Nunes",
+    "venue": "SpaceOps 2012; published in Space Operations: Experience, Mission Systems, and Advanced Concepts, Progress in Astronautics and Aeronautics vol. 242, AIAA, 2013",
+    "url": "https://arc.aiaa.org/doi/10.2514/5.9781624102080.0169.0192",
+    "tags": [
+      "COSMOS"
+    ]
+  },
+  {
+    "year": 2012,
+    "title": "Adapting an Open-Architecture Mission Operations System for a Lunar Rover Mission",
+    "authors": "T. C. Sorensen, E. J. Pilger, M. S. Wood, M. A. Nunes, H. M. Garbeil, E. K. Wessel, W. Jamroz",
+    "venue": "63rd International Astronautical Congress, Naples, Italy",
+    "tags": [
+      "COSMOS",
+      "Lunar"
+    ]
   },
   {
     "year": 2011,
     "title": "Development of a Comprehensive Mission Operations System Designed to Operate Multiple Small Satellites",
-    "authors": "T. C. Sorensen et al.",
+    "authors": "T. C. Sorensen, E. J. Pilger, M. S. Wood, M. A. Nunes, B. D. Yost",
     "venue": "25th Annual AIAA/USU Conference on Small Satellites, SSC11-IX-3",
     "url": "https://digitalcommons.usu.edu/smallsat/2011/all2011/62/",
-    "tags": ["COSMOS"]
+    "tags": [
+      "COSMOS",
+      "Swarms"
+    ]
+  },
+  {
+    "year": 2010,
+    "title": "Design of a Scientific Lunar Micro-Lander Mission",
+    "authors": "T. C. Sorensen, V. J. Lappas, P. J. Mouginis-Mark, P. G. Lucey, G. J. Taylor, M. A. Nunes, E. D. Gregory",
+    "venue": "International Space Conference of Pacific-basin Societies, AAS 10-C.4.8",
+    "tags": [
+      "Lunar"
+    ]
+  },
+  {
+    "year": 2010,
+    "title": "Cost-Effective Geophysical Exploration of the Moon Using Instrumented Micro-Landers and a Relay Orbiter",
+    "authors": "T. C. Sorensen, C. J. Wolfe, G. J. Taylor, M. A. Nunes, E. D. Gregory",
+    "venue": "61st International Astronautical Congress, IAC-10-D9.2.8, Prague, Czech Republic",
+    "tags": [
+      "Lunar"
+    ]
+  },
+  {
+    "year": 2010,
+    "title": "Hawai'iSat-1: Development of a University Microsatellite for Testing a Thermal Hyperspectral Imager",
+    "authors": "T. Sorensen, L. French, W. Doi, J. Chan, E. Gregory, M. Kobayashi, Z. Lee-Ho, M. Nunes, E. Pilger, A. Yamura, L. Yoneshige",
+    "venue": "AIAA SPACE 2010 Conference & Exposition",
+    "tags": [
+      "HawaiiSat-1"
+    ]
+  },
+  {
+    "year": 2010,
+    "title": "Development of the Mission Operations Support Tool (MOST)",
+    "authors": "T. Sorensen, E. Pilger, M. Wood, E. Gregory, M. A. Nunes",
+    "venue": "SpaceOps 2010 Conference, Huntsville, AL",
+    "url": "https://doi.org/10.2514/6.2010-2230",
+    "tags": [
+      "COSMOS"
+    ]
+  },
+  {
+    "year": 2009,
+    "title": "LEO-1: Development of a University Microsatellite for Flight Testing New Technologies",
+    "authors": "T. C. Sorensen, C. v. Hude, M. H. Kobayashi, E. J. Pilger, A. K. Sanyal, L. K. Yoneshige, M. A. Nunes",
+    "venue": "AIAA SPACE 2009 Conference",
+    "url": "https://doi.org/10.2514/6.2009-6812",
+    "tags": [
+      "HawaiiSat-1"
+    ]
   },
   {
     "year": 2009,
@@ -53,6 +875,8 @@
     "authors": "W. A. Shiroma, J. M. Akagi, B. L. Wolfe, J. T. Akagi, Z. K. Lee-Ho, A. T. Ohta",
     "venue": "23rd Annual AIAA/USU Conference on Small Satellites, SSC09-XII-07",
     "url": "https://digitalcommons.usu.edu/cgi/viewcontent.cgi?article=1344&context=smallsat",
-    "tags": ["Education"]
+    "tags": [
+      "Education"
+    ]
   }
 ]

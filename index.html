@@ -82,11 +82,19 @@
         <h2>Missions</h2>
         <p class="sub">A selection of HSFL spacecraft, current and past.</p>
         <div class="grid three cards">
-          <article class="card mission">
-            <span class="tag current">Current</span>
-            <h4>HyTI</h4>
-            <p>Hyperspectral Thermal Imager — a 6U CubeSat in low Earth orbit funded by NASA's Earth Science Technology Office, demonstrating compact hyperspectral thermal imaging as a pathfinder for future science missions.</p>
-            <a href="https://github.com/search?q=org%3Ahsfl+hyti&type=repositories">Code →</a>
+          <article class="card mission has-media span-2">
+            <div class="gallery">
+              <a class="main" href="assets/img/hyti-orbit.jpg"><img src="assets/img/hyti-orbit.jpg" alt="The HyTI CubeSat drifting away from the International Space Station above Earth's clouds" loading="lazy"></a>
+              <a href="assets/img/hyti-iss-deploy.jpg"><img src="assets/img/hyti-iss-deploy.jpg" alt="HyTI just after release from the Nanoracks deployer on the ISS" loading="lazy"></a>
+              <a href="assets/img/hyti-cleanroom.jpg"><img src="assets/img/hyti-cleanroom.jpg" alt="HSFL students with the HyTI 6U CubeSat in the cleanroom" loading="lazy"></a>
+            </div>
+            <div class="body">
+              <span class="tag">Completed</span>
+              <h4>HyTI</h4>
+              <p>Hyperspectral Thermal Imager — a 6U CubeSat funded by NASA's Earth Science Technology Office to demonstrate high spatial and spectral resolution thermal imaging from a CubeSat. Deployed from the International Space Station in April 2024 and deorbited on December 17, 2024.</p>
+              <p class="credit">ISS photos: NASA</p>
+              <a href="https://www.hsfl.hawaii.edu/missions/hyti/">Mission page →</a>
+            </div>
           </article>
           <article class="card mission">
             <span class="tag current">In development</span>
@@ -94,17 +102,24 @@
             <p>Taking hyperspectral thermal imaging to the Moon, with mission planning built on SPICE kernels and dedicated flight software.</p>
             <a href="https://github.com/hsfl/lunar-hyti">Code →</a>
           </article>
-          <article class="card mission">
-            <span class="tag current">In development</span>
-            <h4>Neutron-2</h4>
-            <p>Follow-on to Neutron-1, continuing measurements of the low-Earth-orbit neutron environment.</p>
-            <a href="https://github.com/hsfl/Neutron-2">Code →</a>
+          <article class="card mission has-media span-2 split">
+            <a class="split-img" href="assets/img/neutron-2.jpg"><img src="assets/img/neutron-2.jpg" alt="Render of the two Neutron-2 3U CubeSats in orbit, with test results from the neutron detector engineering unit" loading="lazy"></a>
+            <div class="body">
+              <span class="tag current">In development</span>
+              <h4>Neutron-2</h4>
+              <p>A dual CubeSat mission, developed with the University Nanosatellite Program, to measure neutron and gamma-ray flux and map neutron radiation in three dimensions in low Earth orbit. It builds on the Neutron-1 mission and its detector heritage.</p>
+              <p class="links"><a href="https://www.hsfl.hawaii.edu/missions/neutron-2/">Mission page →</a> · <a href="https://github.com/hsfl/Neutron-2">Code →</a></p>
+            </div>
           </article>
-          <article class="card mission">
-            <span class="tag">Completed</span>
-            <h4>Neutron-1</h4>
-            <p>3U CubeSat carrying an Arizona State University neutron detector. Deployed from the International Space Station in November 2020 and deorbited in 2022 after completing its mission.</p>
-            <a href="https://www.hsfl.hawaii.edu/missions/neutron-1/">Mission page →</a>
+          <article class="card mission has-media">
+            <a href="assets/img/neutron-1.jpg"><img class="mission-img portrait" src="assets/img/neutron-1.jpg" alt="The Neutron-1 3U CubeSat on a test fixture in the HSFL cleanroom" loading="lazy"></a>
+            <div class="body">
+              <span class="tag">Completed</span>
+              <h4>Neutron-1</h4>
+              <p>3U CubeSat carrying an Arizona State University neutron detector. Deployed from the International Space Station in November 2020 and deorbited in 2022 after completing its mission.</p>
+              <p class="credit">Photo: HSFL</p>
+              <a href="https://www.hsfl.hawaii.edu/missions/neutron-1/">Mission page →</a>
+            </div>
           </article>
           <article class="card mission">
             <span class="tag">Completed</span>
@@ -112,7 +127,7 @@
             <p>HSFL's microsatellite flew on ORS-4 in November 2015 aboard the Super Strypi rocket from the Pacific Missile Range Facility on Kauaʻi.</p>
             <a href="https://www.hsfl.hawaii.edu/missions/">Missions →</a>
           </article>
-          <article class="card mission">
+          <article class="card mission span-2">
             <span class="tag edu">Education</span>
             <h4>Artemis CubeSat Kit</h4>
             <p>A low-cost 1U CubeSat kit with every essential subsystem, open hardware and flight software — built for classrooms across Hawaiʻi and beyond.</p>

@@ -202,3 +202,30 @@ address { font-style: normal; color: var(--muted); font-size: 1.05rem; }
   .pub-year { grid-template-columns: 1fr; gap: 10px; }
   .toolbar input { max-width: none; }
 }
+
+/* Mission media */
+.card.has-media { padding: 0; overflow: hidden; }
+.card.has-media .body { padding: 22px; display: flex; flex-direction: column; flex: 1; }
+.card.has-media .body > a { margin-top: auto; font-weight: 600; font-size: .9rem; }
+.span-2 { grid-column: span 2; }
+.gallery { display: grid; grid-template-columns: 2fr 1fr; grid-template-rows: repeat(2, minmax(0, 1fr)); gap: 3px; aspect-ratio: 16 / 7; min-height: 0; overflow: hidden; background: var(--border); }
+.gallery a { display: block; overflow: hidden; min-height: 0; }
+.gallery .main { grid-row: span 2; }
+.gallery img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .3s; }
+.gallery a:hover img { transform: scale(1.04); }
+.mission-img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; }
+.credit { font-size: .75rem !important; opacity: .8; margin: -.4em 0 1em; }
+@media (max-width: 680px) {
+  .span-2 { grid-column: auto; }
+  .gallery { aspect-ratio: 4 / 3; }
+}
+.gallery img[src*="cleanroom"] { object-position: center 25%; }
+.card.split { flex-direction: row; }
+.split-img { flex: 0 0 50%; background: #0d1226; display: flex; align-items: center; overflow: hidden; }
+.split-img img { width: 100%; height: auto; display: block; }
+.card.split .links { margin-top: auto; }
+@media (max-width: 680px) {
+  .card.split { flex-direction: column; }
+}
+.mission-img.portrait { aspect-ratio: 4 / 3; object-position: center 15%; }
+.card.has-media > a { margin-top: 0; }

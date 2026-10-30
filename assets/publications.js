@@ -20,7 +20,9 @@ function renderPubs() {
       <ol class="pubs">
         ${shown.filter(p => p.year === y).map(p => `
           <li class="pub">
-            <a class="pub-title" href="${escapeHtml(p.url)}">${escapeHtml(p.title)}</a>
+            ${p.url
+              ? `<a class="pub-title" href="${escapeHtml(p.url)}">${escapeHtml(p.title)}</a>`
+              : `<span class="pub-title">${escapeHtml(p.title)}</span>`}
             ${p.authors ? `<div class="pub-authors">${escapeHtml(p.authors)}</div>` : ''}
             <div class="pub-venue">${escapeHtml(p.venue)}</div>
             ${(p.tags || []).length ? `<div class="pub-tags">${p.tags.map(t => `<span class="tag">${escapeHtml(t)}</span>`).join('')}</div>` : ''}
