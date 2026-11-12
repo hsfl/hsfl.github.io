@@ -1,0 +1,65 @@
+.footer-widgets #media_image-3,
+.footer-widgets #text-17 .widget-title,
+.footer-widgets #text-6 .widget-title {
+  margin-top: 0;
+}
+
+.footer-widgets #media_image-3 img {
+  display: block;
+  margin: 0;
+}
+
+.footer-widgets .hsfl-footer-logos {
+  --footer-logo-height: clamp(76px, 10vw, 104px);
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .footer-widgets .hsfl-footer-logos {
+    flex-wrap: nowrap;
+  }
+
+  .hsfl-footer-logos > * {
+    min-width: 0;
+  }
+}
+
+.hsfl-footer-logo-pair {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  max-width: 100%;
+}
+
+.hsfl-footer-logo-pair > a {
+  min-width: 0;
+}
+
+@media (max-width: 767px) {
+  .footer-widgets .hsfl-footer-logos {
+    justify-content: flex-start;
+  }
+}
+
+.footer-widgets .hsfl-footer-logo {
+  height: var(--footer-logo-height);
+  padding: 0;
+  background: transparent;
+}
+
+.footer-widgets .hsfl-footer-logo img {
+  display: block;
+  width: auto;
+  height: var(--footer-logo-height);
+  max-width: 100%;
+  max-height: none;
+  margin: 0;
+  object-fit: contain;
+}
+
+.footer-widgets .hsfl-footer-logo--soest img {
+  filter: grayscale(1) invert(1);
+  mix-blend-mode: screen;
+}
